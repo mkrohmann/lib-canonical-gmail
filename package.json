@@ -1,0 +1,29 @@
+{
+  "name": "lib-canonical-gmail",
+  "version": "0.0.1",
+  "description": "A library that makes gmail addresses canonical",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mkrohmann/lib-canonical-gmail.git"
+  },
+  "keywords": [
+    "email",
+    "canonical",
+    "gmail"
+  ],
+  "author": "Michael Krohmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkrohmann/lib-canonical-gmail/issues"
+  },
+  "homepage": "https://github.com/mkrohmann/lib-canonical-gmail",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^1.21.3"
+  }
+}
